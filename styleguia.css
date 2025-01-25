@@ -1,0 +1,54 @@
+/* Estilos CSS para la página */
+
+/* Definir un fondo para toda la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente sans-serif para una apariencia limpia */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo gris claro */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto blanco */
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilo para el contenido principal */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilo para las secciones de contenido */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007BFF; /* Color azul cuando el enlace es hover */
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
