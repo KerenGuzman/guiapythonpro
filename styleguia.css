@@ -1,54 +1,53 @@
-/* Estilos CSS para la página */
-
-/* Definir un fondo para toda la página */
+/* Estilo para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif; /* Fuente sans-serif para una apariencia limpia */
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4; /* Color de fondo gris claro */
+    font-family: Arial, sans-serif;   /* Define la fuente para todo el texto de la página */
+    margin: 0;                        /* Elimina los márgenes predeterminados del navegador */
+    padding: 0;                       /* Elimina el padding predeterminado del navegador */
+    background-color: #f4f4f4;        /* Establece un color de fondo gris claro */
 }
 
-/* Estilo para el encabezado */
+/* Estilo para el encabezado de la página */
 header {
-    background-color: #333; /* Fondo oscuro */
-    color: white; /* Texto blanco */
-    text-align: center;
-    padding: 10px 0;
+    background-color: #333;           /* Color de fondo oscuro para el encabezado */
+    color: white;                     /* Texto blanco para el encabezado */
+    text-align: center;               /* Centra el texto dentro del encabezado */
+    padding: 10px 0;                  /* Agrega 10px de espacio por arriba y por abajo */
 }
 
-/* Estilo para el contenido principal */
+/* Estilo para el contenido principal (secciones) */
 main {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 20px;                    /* Espacio interior (padding) de 20px alrededor del contenido */
+    max-width: 1200px;                /* Limita el ancho máximo del contenido a 1200px */
+    margin: 0 auto;                   /* Centra el contenido horizontalmente */
 }
 
-/* Estilo para las secciones de contenido */
+/* Estilo para cada sección dentro del main */
 section {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;          /* Fondo blanco para cada sección */
+    padding: 20px;                    /* Agrega 20px de espacio dentro de cada sección */
+    margin-bottom: 20px;              /* Espacio inferior de 20px entre las secciones */
+    border-radius: 8px;               /* Bordes redondeados de 8px para un estilo más suave */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para dar profundidad */
 }
 
-/* Estilo para los enlaces */
+/* Estilo para los enlaces (a) */
 a {
-    color: #333;
-    text-decoration: none;
+    color: #333;                      /* Color del texto de los enlaces (gris oscuro) */
+    text-decoration: none;             /* Elimina el subrayado de los enlaces */
 }
 
+/* Estilo para cuando el mouse pasa sobre un enlace (hover) */
 a:hover {
-    color: #007BFF; /* Color azul cuando el enlace es hover */
+    color: #007BFF;                   /* Cambia el color del enlace a azul cuando pasa el ratón */
 }
 
 /* Estilo para el pie de página */
 footer {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    text-align: center;               /* Centra el texto en el pie de página */
+    background-color: #333;           /* Fondo oscuro para el pie de página */
+    color: white;                     /* Texto blanco para el pie de página */
+    padding: 10px 0;                  /* Agrega 10px de espacio arriba y abajo */
+    position: fixed;                  /* Hace que el pie de página se quede fijo en la parte inferior */
+    width: 100%;                      /* El pie de página ocupa todo el ancho de la página */
+    bottom: 0;                        /* Fija el pie de página en la parte inferior */
 }
